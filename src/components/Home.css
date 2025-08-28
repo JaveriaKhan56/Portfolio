@@ -1,0 +1,82 @@
+.header{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8%;
+    padding-left: 26%;
+    padding-right: 26%;    
+    box-sizing: border-box;
+}
+.header p {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(221, 221, 221);
+}
+.header h1, h4, h3, h2, a{
+  color: white;
+}
+.header h2{
+  text-align: center;
+  font-size: x-large;
+}
+
+.home{
+  text-align: center;
+}
+.typed-text {
+  display: inline-block;
+  min-height: 25px; 
+}
+
+
+/* education */
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+
+}
+
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.edu-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.edu-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.edu-date {
+  color: gray;
+  font-size: 0.9rem;
+  white-space: nowrap; /* date ek line me hi rahe */
+}
+
+.edu-left h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.edu-left p {
+  margin: 0;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+
+.button{
+  margin: 2%;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
